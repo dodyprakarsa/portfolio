@@ -194,7 +194,7 @@
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
-  background-size:auto;
+  background-size:cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,7 +477,7 @@ body {
   background: #272727;
   color: #fff;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   line-height: 1;
 }
 
