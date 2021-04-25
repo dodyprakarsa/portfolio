@@ -27,11 +27,6 @@
             About Me
           </a>
         </li>
-        <!-- <li class="menu-nav__item">
-          <a href="projects.html" class="menu-nav__link">
-            My Projects
-          </a>
-        </li> -->
         <li class="menu-nav__item">
           <a href="./dist/contact.html" class="menu-nav__link">
             Contact Me
@@ -63,35 +58,5 @@
 
   <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
 
-  <script>
-    const menuBtn = document.querySelector('.menu-btn');
-    const hamburger = document.querySelector('.menu-btn__burger');
-    const nav = document.querySelector('.nav');
-    const menuNav = document.querySelector('.menu-nav');
-    const navItems = document.querySelectorAll('.menu-nav__item');
-
-    let showMenu = false;
-
-    menuBtn.addEventListener('click', toggleMenu);
-
-    function toggleMenu() {
-      if (!showMenu) {
-        hamburger.classList.add('open');
-        nav.classList.add('open');
-        menuNav.classList.add('open');
-        navItems.forEach(item => item.classList.add('open'));
-
-        showMenu = true;
-      } else {
-        hamburger.classList.remove('open');
-        nav.classList.remove('open');
-        menuNav.classList.remove('open');
-        navItems.forEach(item => item.classList.remove('open'));
-
-        showMenu = false;
-      }
-    }
-  </script>
 </body>
-
 </html>
