@@ -1,4 +1,4 @@
-/* const menuBtn = document.querySelector('.menu-btn');
+const menuBtn = document.querySelector('.menu-btn');
 const hamburger = document.querySelector('.menu-btn__burger');
 const nav = document.querySelector('.nav');
 const menuNav = document.querySelector('.menu-nav');
@@ -24,9 +24,9 @@ function toggleMenu() {
 
     showMenu = false;
   }
-} */
+}
 
-const menuBtn = document.querySelector('.menu-btn');
+/* const menuBtn = document.querySelector('.menu-btn');
 const hamburger = document.querySelector('.menu-btn__burger');
 const nav = document.querySelector('.nav');
 const menuNav = document.querySelector('.menu-nav');
@@ -49,4 +49,4 @@ function toggleMenu() {
     navItems.forEach(item => item.classList.remove('open'));
     showMenu = false;
   }
-}
+} */
