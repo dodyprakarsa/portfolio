@@ -19,7 +19,7 @@
 }
 
 .home__name {
-  font-size: 5rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
@@ -194,7 +194,7 @@
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
-  background-size: cover;
+  background-size:cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,13 +239,10 @@
   border-bottom: 5px solid #ff652f;
 }
 
-.about .jobs__job h2, .about .jobs__job h3 {
+.about .jobs__job h2, .about .jobs__job h3{
   margin: 0.5rem 0;
 }
 
-.about .jobs__job h6 {
-  margin: 0.3rem 0;
-}
 
 .about .social-icons {
   display: -webkit-box;
@@ -477,7 +474,7 @@ body {
   background: #272727;
   color: #fff;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   line-height: 1;
 }
 
