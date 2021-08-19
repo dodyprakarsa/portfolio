@@ -1,5 +1,4 @@
-# portofolio
-portfolio pages
+# portfolio pages
 
 Language
 - HTML-CSS
@@ -9,5 +8,5 @@ Deployment
 - deploy to github pages via vscode
 
 Reference
-original code https://github.com/divanov11/portfolio-website
+- original code https://github.com/divanov11/portfolio-website
 please subscribe https://www.youtube.com/channel/UCTZRcDjjkVajGL6wd76UnGg
