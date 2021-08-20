@@ -410,8 +410,8 @@ h6 { font-size: 16px;}
 		font-size: 50px;
 		border: none;
 		outline: none;
-		/* background-color: red; */
-		color: yellow;
+		/* background-color: yellow; */
+		color: black;
 		cursor: pointer;
 		padding: 15px;
 		/* border-radius: 4px; */
@@ -469,6 +469,10 @@ h6 { font-size: 16px;}
 	}
 	.right-column{
 		width: 100%;
+	}
+
+	#settings-note{
+		display:none;
 	}
 
 }
