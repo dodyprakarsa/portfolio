@@ -411,7 +411,7 @@ h6 { font-size: 16px;}
 		border: none;
 		outline: none;
 		/* background-color: red; */
-		/* color: white; */
+		color: yellow;
 		cursor: pointer;
 		padding: 15px;
 		/* border-radius: 4px; */
@@ -459,8 +459,16 @@ h6 { font-size: 16px;}
 	}
 
 	#preview{
-		width: 280px;
+		width: 260px;
 
+	}
+
+	.left-column{
+		width: 100%;
+	
+	}
+	.right-column{
+		width: 100%;
 	}
 
 }
