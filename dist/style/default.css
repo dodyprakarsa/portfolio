@@ -66,13 +66,15 @@ h6 { font-size: 16px;}
 }
 
 .s2{
+	display: grid;
+	justify-content: center;
 	background-color: var(--secondaryColor);
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
 }
 
 .main-container{
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -305,7 +307,7 @@ h6 { font-size: 16px;}
 }
 
 .social-links{
-	display: grid;
+	/* display: grid; */
 	align-content: center;
 	text-align: center;
 }
@@ -455,10 +457,10 @@ h6 { font-size: 16px;}
 
 @media screen and (max-width: 400px){
 	#preview-shadow{
-		max-width: 275px;
-		height: 188px;
-		padding-left: 20px;
-		padding-top: 10px;
+		max-width: 270px;
+		height: 180px;
+		padding-left: 25px;
+		padding-top: 25px;
 	}
 
 	#preview{
