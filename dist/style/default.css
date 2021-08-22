@@ -372,13 +372,14 @@ h6 { font-size: 16px;}
 }
 
 #contact-form textarea{
+	
 	min-height: 100px;
 	font-size: 14px;
 }
 
 
 .input-field{
-	/* width: 100%; */
+	width: 400px;
 	padding-top: 10px;
 	padding-bottom:10px; 
 	background-color: var(--secondaryColor);
@@ -407,11 +408,11 @@ h6 { font-size: 16px;}
 	}
 
 	#myBtn {
-		/* display: none; */
+		display: none;
 		position: fixed;
 		bottom: 20px;
 		right: 25px;
-		/* z-index: 99; */
+		z-index: 99;
 		font-size: 50px;
 		font-weight: bolder;
 		/* border:solid; */
@@ -470,16 +471,16 @@ h6 { font-size: 16px;}
 
 	}
 
-	/* .left-column{
+	.input-field {
+		width: 100%;
+	}
+
+	.left-column{
 		width: 100%;
 	
 	}
 	.right-column{
 		width: 100%;
-	} */
-
-	#settings-note{
-		display:none;
 	}
 
 }
