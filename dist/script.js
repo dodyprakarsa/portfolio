@@ -1,4 +1,4 @@
-console.log('script.js from DOM')
+console.log('script.js loaded')
 
 let theme = localStorage.getItem('theme')
 
@@ -21,19 +21,19 @@ for (var i=0; themeDots.length > i; i++){
 
 function setTheme(mode){
 	if(mode == 'light'){
-		document.getElementById('theme-style').href = './dist/style/default.css'
+		document.getElementById('theme-style').href='./dist/style/default.css'
 	}
 
 	if(mode == 'blue'){
-		document.getElementById('theme-style').href = './dist/style/blue.css'
+		document.getElementById('theme-style').href='./dist/style/blue.css'
 	}
 
 	if(mode == 'green'){
-		document.getElementById('theme-style').href = './dist/style/green.css'
+		document.getElementById('theme-style').href='./dist/style/green.css'
 	}
 
 	if(mode == 'purple'){
-		document.getElementById('theme-style').href = './dist/style/purple.css'
+		document.getElementById('theme-style').href='./dist/style/purple.css'
 	}
 
 	localStorage.setItem('theme', mode)
